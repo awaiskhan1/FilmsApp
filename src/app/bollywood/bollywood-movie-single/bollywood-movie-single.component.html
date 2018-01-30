@@ -1,0 +1,62 @@
+
+
+<section class="moviesItemWrapper movieDetailPageWrapper" *ngIf="subs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 ">
+        <article class="flex heading">
+          <h2 class="listPageTitle">{{subs.title}}<span class="subtitle">{{ subs.subTitle }}</span></h2>
+          <div class="backButtonWrapper">
+            <button mat-raised-button color="accent" (click)="onBack()">Back To Movies</button>
+          </div>
+        </article>
+      </div>
+    </div>
+    <div class="moviesSection row">
+      <mat-card class="col-md-4">
+          <article class="solutionBox">
+            <figure class="detailFigure">
+              <img md-card-image src="{{ subs.img }}">
+            </figure>
+          </article> 
+      </mat-card>
+      <mat-card class="col-md-8 movieSingleColom">
+          <mat-list class="movieSingleContent"><!-- Movie Deatil List -->
+            <mat-list-item><!-- Director -->
+              <strong class="intro">Director :</strong> 
+              <span class="description">{{ subs.Director }}</span> 
+            </mat-list-item>
+            <mat-list-item><!-- Starring -->
+              <strong class="intro">Starring:</strong> 
+              <span class="description">{{ subs.Starring }}</span> 
+            </mat-list-item>
+            <mat-list-item><!-- Genre -->
+              <strong class="intro">Genre:</strong> 
+              <span class="description">{{ subs.genre }}</span> 
+            </mat-list-item>
+            <mat-list-item><!-- Released -->
+              <strong class="intro">Released:</strong> 
+              <span class="description">{{ subs.Released }}</span> 
+            </mat-list-item>
+            <mat-list-item><!-- Writer -->
+              <strong class="intro">Writer:</strong> 
+              <span class="description">{{ subs.Writer }}</span> 
+            </mat-list-item>
+            <mat-list-item><!-- IMDB Rating -->
+              <strong class="intro">IMDB Rating:</strong> 
+              <span class="description">{{ subs.ImdbRating }}</span> 
+            </mat-list-item>
+            <mat-list-item><!-- Duration -->
+              <strong class="intro">Duration:</strong> 
+              <span class="description">{{ subs.Duration }}</span> 
+            </mat-list-item>
+            <mat-list-item><!-- Synopsis -->
+              <strong class="intro">Synopsis:</strong> 
+              <span class="description">{{ subs.Synopsis }}</span> 
+            </mat-list-item>
+          </mat-list>
+      </mat-card>
+    </div>
+  </div>
+  
+</section>

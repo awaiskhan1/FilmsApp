@@ -1,0 +1,70 @@
+<section class="moviesItemWrapper">
+  <div class="container">
+    <div class="moviesSection row">
+      <div class="col-md-8">
+        <div class="sortButton">
+          <span class="sortTitle">Sort By:</span>
+          <button mat-raised-button color="accent" (click)="sortby('title')"><i class="material-icons">sort_by_alpha</i>Name</button>
+          <button mat-raised-button color="accent" (click)="sortby('highRating')"><i class="material-icons">today</i>Date</button>
+          <button mat-raised-button color="accent" (click)="sortby('lowRating')"><i class="material-icons">visibility</i>Most View</button>
+          <button mat-raised-button color="accent" (click)="sortby('liked')"><i class="material-icons">thumb_up</i>Most Liked</button>
+        </div>
+        <div class="row">
+          <mat-card *ngFor="let Bollywood of bollywood; let i = index" class="col-md-4">
+              <article class="solutionBox">
+                <a [routerLink]="['/bollywoodMovieDetails', Bollywood.id]">
+                  <figure class="detailFigure">
+                    <img md-card-image src="{{ Bollywood.img }}">
+                    <figcaption>
+                      <i class="material-icons">play_circle_outline</i>
+                    </figcaption>
+                  </figure>
+                </a>
+                  <mat-card-header class="textDescription">
+                    <mat-card-title class="solutionTitle">
+                      <span class="favTitle">{{ Bollywood.title }}</span>
+                      <span class="favIcon"  [class.red-color]="Bollywood.liked == '1'"><a href="javascript:;" (click)="liked(i)"> <i class="material-icons">favorite_border</i> like</a></span>
+                    </mat-card-title>
+                    
+                  </mat-card-header>
+                
+              </article> 
+          </mat-card>
+        </div>
+      </div>
+      <div class="col-md-4">
+          <section class="sidebarCategory">
+            <div class="categoryWrapper">
+              <header class="sidebarHeader">Categories</header>
+              <mat-list>
+                <mat-list-item> <a href="javascript:;" (click)="filter('all')" >All</a> </mat-list-item>
+                <mat-list-item> <a href="javascript:;" (click)="filter('action')" >Action</a> </mat-list-item>
+                <mat-list-item> <a href="javascript:;" (click)="filter('friction')">Friction</a> </mat-list-item>
+                <mat-list-item> <a href="javascript:;" (click)="filter('fantasy')">Fantasy</a> </mat-list-item>
+                <mat-list-item> <a href="javascript:;" (click)="filter('drama')">Drama</a> </mat-list-item>
+                <mat-list-item> <a href="javascript:;" (click)="filter('crime')" >crime</a> </mat-list-item>
+                <mat-list-item> <a href="javascript:;" (click)="filter('mystery')">mystery</a> </mat-list-item>
+                <mat-list-item> <a href="javascript:;" (click)="filter('comedy')">Comedy</a> </mat-list-item>
+                <mat-list-item> <a href="javascript:;" (click)="filter('romance')">Romance</a> </mat-list-item>
+                <mat-list-item> <a href="javascript:;" (click)="filter('adventure')">Adventure</a> </mat-list-item>
+                <mat-list-item> <a href="javascript:;" (click)="filter('family')">family</a> </mat-list-item>
+              </mat-list>
+            </div>
+
+            <div class="categoryWrapper cateByYear">
+              <header class="sidebarHeader">Browse Movie By Year</header>
+              <mat-list>
+                <mat-list-item *ngFor="let BollywoodY of copyBollywoods" > 
+                  <a href="javascript:;"  (click)="filterByYear([BollywoodY.year])" >{{BollywoodY.year}}</a> 
+                </mat-list-item>
+                <mat-list-item> 
+                    <a href="javascript:;"  (click)="filterByYear('all')" >View All Years</a> 
+                  </mat-list-item>
+              </mat-list>
+            </div>
+          </section>
+      </div>
+    </div>
+  </div>
+  
+</section>
