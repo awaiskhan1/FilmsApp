@@ -1,1 +1,361 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+body {
+    margin: 0;
+    background: #020d18 !important;
+    font-family: Roboto, sans-serif;
+}
+.topHeader{
+    margin-bottom: 20px;
+}
+.TopLogo{
+
+}
+.TopMenu{
+
+}
+.TopMenu .mat-fab.mat-primary, .TopMenu .mat-mini-fab.mat-primary, .TopMenu .mat-raised-button.mat-primary{
+    box-shadow: none;
+}
+.TopMenu .mat-fab.mat-primary.active, .TopMenu .mat-raised-button.mat-primary.active, .TopMenu .mat-raised-button.mat-primary.active{
+    background: #ffd740;
+    color: #020d18;
+}
+    mat-card {
+    max-width: 80%;
+    margin: 2em auto;
+    text-align: center;
+}
+
+mat-toolbar-row {
+    justify-content: space-between;
+}
+
+.done {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+}
+.moviesItemWrapper{
+    display: block;
+    width: 100%;
+}
+.moviesSection{
+
+}
+.moviesSection .sortTitle{
+    color: #fff;
+    margin-right: 10px;
+}
+.moviesSection mat-card{
+    margin: 0px !important;
+    background: #06121e;
+    padding: 15px 15px 0px 15px;    
+}
+.moviesSection mat-card .detailFigure{
+    margin: 0px;
+    padding: 0px;
+}
+.moviesSection mat-card .detailFigure img{
+    width: 100%;
+    height: auto;
+}
+
+  /* Movies Images Grid Style  */
+.solutionBox{
+    margin-top: 20px;
+    position: relative;
+}
+.solutionBox:before, .solutionBox:after{
+    top: -5px;
+    width: 0px;
+    height: 2px;
+    background: #673ab7;
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    -webkit-transition: All 0.3s ease-out;
+    -moz-transition: All 0.3s ease-out;
+    -ms-transition: All 0.3s ease-out;
+    -o-transition: All 0.3s ease-out;
+    transition: All 0.3s ease-out;
+}
+.solutionBox:after{
+    top: auto;
+    bottom: 0px;
+}
+.solutionBox:hover:after,.solutionBox:hover:before{
+    width: 100%;
+}
+.solutionBox:hover figure{
+    background-image: linear-gradient(#000000, rgb(5, 5, 5));
+}
+.solutionBox figure {
+    margin: 0px;
+    overflow: hidden;
+    -webkit-transition: All 0.2s ease-out;
+    -moz-transition: All 0.2s ease-out;
+    -ms-transition: All 0.2s ease-out;
+    -o-transition: All 0.2s ease-out;
+    transition: All 0.2s ease-out;
+    min-height: 300px;
+    position: relative;
+}
+.solutionBox figure img {
+    opacity: 1;
+    -webkit-transition: All 0.3s ease-out;
+    -moz-transition: All 0.3s ease-out;
+    -ms-transition: All 0.3s ease-out;
+    -o-transition: All 0.3s ease-out;
+    transition: All 0.3s ease-out;
+}
+.solutionBox figure figcaption {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    z-index: 4;
+    text-align: center;
+}
+
+.solutionBox figure figcaption mat-icon, .solutionBox figure figcaption i {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 44%;
+    font-size: 4rem;
+    z-index: 4;
+    opacity: 0;
+    margin: 0px auto;
+    -webkit-transition: All 0.3s ease-out;
+    -moz-transition: All 0.3s ease-out;
+    -ms-transition: All 0.3s ease-out;
+    -o-transition: All 0.3s ease-out;
+    transition: All 0.3s ease-out;
+}
+.solutionBox:hover figure figcaption mat-icon, .solutionBox:hover figure figcaption i{
+    top: 40%;
+    opacity: 1;
+}
+
+.solutionBox:hover figure img{
+    opacity: 0.6;
+}
+.solutionBox .textDescription .solutionTitle, .solutionBox .textDescription .solutionSubTitle{
+    color: #fff;
+    text-decoration: none;
+    text-align: left;
+    margin-bottom: 7px;
+}
+.solutionBox .textDescription .solutionTitle{
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.solutionBox .textDescription .solutionTitle .mat-card-header-text{
+    width: 100%;
+    justify-content: space-between;
+}
+.favTitle{
+    color: #fff;
+}
+.solutionBox a{
+    color: #fff;
+}
+.red-color i, .red-color, .red-color a, .solutionBox:hover .red-color a{
+    color: #f30 !important;
+}
+.favIcon {
+
+}
+.favIcon i{
+    font-size: 12px;
+}
+.solutionBox .textDescription .solutionSubTitle{
+    color: #fff;
+    font-size: 12px;
+    
+}
+.solutionBox:hover .textDescription .solutionTitle, .solutionBox:hover .textDescription .solutionSubTitle, .solutionBox:hover a{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+.solutionBox .textDescription .mat-card-header-text{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+}
+/* Movie Single Detail  */
+.movieDetailPageWrapper .heading{
+    margin-bottom: 20px;
+}
+.listPageTitle{
+    position: relative;
+    font-size: 2.5rem;
+    color:  #673ab7;
+    text-align: left;
+    align-self: stretch;
+}
+.flex{
+    display: flex !important;
+    align-items: flex-end; 
+    justify-content: space-between;
+}
+.listPageTitle .subtitle{
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.listPageTitle:after{
+    content: '';
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    background: #ffd7407a;
+}
+.backButtonWrapper{
+    text-align: right;
+    align-self: flex-end;
+}
+.intro{
+    font-size: 13px;
+    background: #673ab70a;
+    padding: 5px 4px 5px 9px;
+    margin-right: 10px;
+    letter-spacing: 1.1px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.8);
+    border-right: 2px solid #673ab7a6;
+    border-radius: 5px;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    min-width: 107px;
+    color: #828c9e;
+}
+.description{
+    background: rgba(103, 58, 183, 0.0784313725490196);
+    padding: 7px 8px 7px 8px;
+    border-radius: 5px;
+    position: relative;
+    color: #828c9e;
+    font-size: 13px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.8);
+    border-left: 2px solid #673ab7a6;
+}
+.description::after{
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: 12px;
+    width: 10px;
+    height: 10px;
+    border: 5px solid transparent;
+    border-right-color: #3f2a78;
+}
+.movieSingleContent{
+    text-align: left;
+}
+.movieDetailPageWrapper{
+
+}
+.movieDetailPageWrapper .movieSingleColom{
+    color: white !important;
+}
+.movieDetailPageWrapper .movieSingleColom mat-list-item{
+    display: flex;
+    height: auto;
+    margin-bottom: 10px;
+    flex-direction: column !important;  
+}
+.mat-list .mat-list-item, .mat-nav-list .mat-list-item, .mat-selection-list .mat-list-item{
+    color: #fff;
+}
+.mat-card {
+    background: #020d18;
+    color: rgba(0,0,0,.87);
+}
+.sortButton{
+
+}
+.sortButton .mat-button, .mat-fab, .sortButton .mat-icon-button, .sortButton .mat-mini-fab, .sortButton .mat-raised-button{
+    min-width: 10px;
+    font-size: 13px;
+    line-height: 33px;
+    padding: 0px 12px;
+}
+.sortButton i{
+    font-size: 13px;
+    margin-right: 5px;
+}
+.sidebarCategory{
+
+}
+.sidebarHeader{
+    border-bottom: 1px solid #DDD;
+    line-height: 24px;
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 6px;
+    color: #fff;
+    font-weight: normal;
+}
+.categoryWrapper{
+
+}
+.categoryWrapper .mat-list{
+    text-align: left;
+}
+.categoryWrapper .mat-list .mat-list-item{
+    display: inline-flex;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    height: auto;
+    min-height: 38px;
+}
+.categoryWrapper .mat-list .mat-list-item-content{
+   width: 100%;
+   border-radius: 5px;
+   background: #3f2a7873;
+   text-align: center;
+   -webkit-transition: All 0.3s ease-out;
+    -moz-transition: All 0.3s ease-out;
+    -ms-transition: All 0.3s ease-out;
+    -o-transition: All 0.3s ease-out;
+    transition: All 0.3s ease-out;
+}
+.categoryWrapper .mat-list .mat-list-item-content:hover{
+    background:  #ffd740;
+}
+.categoryWrapper .mat-list .mat-list-item-content a{
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #fff;
+    -webkit-transition: All 0.3s ease-out;
+    -moz-transition: All 0.3s ease-out;
+    -ms-transition: All 0.3s ease-out;
+    -o-transition: All 0.3s ease-out;
+    transition: All 0.3s ease-out;
+}
+.categoryWrapper .mat-list .mat-list-item-content:hover a{
+    
+    color: #020d18;
+}
+.categoryWrapper .mat-list .mat-list-item-content a.active{
+    box-shadow:0px 0px 3px 3px rgba(0,0,0,0.4);
+}
+.cateByYear{
+    margin-top: 40px;
+}
