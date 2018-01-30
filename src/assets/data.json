@@ -1,0 +1,225 @@
+{
+  "bollywoods": [
+      {
+        "id": "1",
+        "img": "assets/images/solution8.jpg",
+        "title": "Aksar 2",
+        "subTitle": "PROMISE SERMONS",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "liked": 1,
+
+        "Director": "Ananth Narayan Mahadevan",
+        "Starring": " Zarine Khan, Gautam Rode, Lillete Dubey, Mukesh Hariawala",
+        "genre": "crime, drama, mystery, fantasy",
+        "Released": "17 Nov 2017",
+        "year" : "2016",
+        "Writer": "N/A",
+        "ImdbRating": 6.83,
+        "Duration": "127 min",
+        "Synopsis": "A husband’s plan to break up his marriage so that he can be with another woman backfires with unexpected consequences."
+      },
+      {
+        "id": "2",
+        "img": "assets/images/solution9.jpg",
+        "title": "Fukrey Returns ",
+        "subTitle": "MICHAEL STORY",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "liked": 0,
+
+        "Director": "Mrighdeep Lamba",
+        "Starring": "Pulkit Samrat, Manjot Singh, Ali Fazal, Varun Sharma",
+        "genre": "Comedy, Drama, Romance, friction",
+        "Released": "08 Dec 2017",
+        "year" : "2017",
+        "Writer": "Vipul Vig (story), Vipul Vig (screenplay), Mrighdeep Lamba (screenplay)",
+        "ImdbRating": 7.13,
+        "Duration": "141 min",
+        "Synopsis": "Fukrey Returns is an 2017 Indian comedy film, directed by Mrighdeep Singh Lamba, produced by Farhan Akhtar and Ritesh Sidhwani. The film is the sequel to 2013 film Fukrey. The film was released on 8 December 2017."
+      },
+      {
+        "id": "3",
+        "img": "assets/images/solution10.jpg",
+        "title": "Ittefaq",
+        "subTitle": "Daily Prayers",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "liked": 1,
+
+        "Director": "Abhay Chopra",
+        "Starring": "Sidharth Malhotra, Sonakshi Sinha, Akshaye Khanna, Kimberley Louisa McBeath",
+        "genre": "mystery, thriller, friction",
+        "Released": "03 Nov 2017",
+        "year" : "2015",
+        "Writer": "Abhay Chopra, Shreyas Jain, Nikhil Mehrotra",
+        "ImdbRating": 6.79,
+        "Duration": "100 min",
+        "Synopsis": "A detective seeks out the truth between two different stories of a crime scene."
+      },
+      {
+        "id": "4",
+        "img": "assets/images/solution11.jpg",
+        "title": "Tiger Zinda Hai ",
+        "subTitle": "Birth of Jesus",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "liked": 0,
+
+        "Director": "Ali Abbas Zafar",
+        "Starring": "Salman Khan, Katrina Kaif, Anupriya Goenka, Paresh Rawal",
+        "genre": "Action, Adventure, Thriller, fantasy",
+        "Released": "22 Dec 2017",
+        "year" : "2013",
+        "Writer": " Neelesh Misra (story), Ali Abbas Zafar (story), Ali Abbas Zafar (screenplay and dialogue), Aditya Chopra (original characters)",
+        "ImdbRating": 5.69,
+        "Duration": "121 min",
+        "Synopsis": "A sequel to the record-breaking blockbuster ‘Ek Tha Tiger’, ‘Tiger Zinda Hai’ continues the story of two super spies Tiger and Zoya eight years later."
+      },
+      {
+        "id": "5",
+        "img": "assets/images/solution12.jpg",
+        "title": "Newton",
+        "subTitle": "Mother Mary",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "liked": 1,
+
+        "Director": "Amit Masurkar",
+        "Starring": "Rajkummar Rao, Pankaj Tripathi, Anjali Patil, Raghuvir Yadav",
+        "genre": "comedy, drama, family",
+        "Released": "22 Sep 2017",
+        "year" : "2010",
+        "Writer": "Amit Masurkar (screenplay), Mayank Tewari (screenplay)",
+        "ImdbRating": 9.07,
+        "Duration": "106 min",
+        "Synopsis": "As India, the world’s largest democracy, braces itself for another general election- with 9 million polling booths, more than 800 million voters, and costing nearly $5 billion — Newton Kumar, a rookie government clerk finds himself entrusted with a task that appears deceptively simple: conducting elections in a remote village in the jungles of central India. The bushes teem with Communist guerrillas, who have been waging a decades old war against the state, even as the indigenous tribals live without any access to mainland amenities. Conducting ‘free and fair’ elections in a minefield like this is no child’s play, as Newton learns over the course of this eventful day. Unfazed with the cynicism and danger all around him, Newton is determined to do his duty. But, as they say in the jungle, ‘The more things change, the worse they will get’."
+      }
+      ,
+      {
+        "id": "6",
+        "img": "assets/images/solution13.jpg",
+        "title": "Jagga Jasoos",
+        "subTitle": "The Way to Christ",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "liked": 1,
+
+        "Director": "Anurag Basu",
+        "Starring": "Shah Rukh Khan, Katrina Kaif, Ranbir Kapoor, Sayani Gupta",
+        "genre": "Action, Adventure, Comedy, mystery",
+        "Released": "14 Jul 2017",
+        "year" : "2011",
+        "Writer": "Anurag Basu",
+        "ImdbRating": 3.53,
+        "Duration": "180 min",
+        "Synopsis": "Join Jagga, a gifted teenage detective, who along with a female companion, is on a quest to find his missing father."
+      }
+  ],
+
+  "hollywoods": [
+      {
+        "id": "1",
+        "img": "assets/images/solution1.jpg",
+        "title": "The Last Airbender",
+        "subTitle": "PROMISE SERMONS",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "liked": 0,
+
+        "Director": "M. Night Shyamalan",
+        "Starring": "Noah Ringer, Dev Patel, Nicola Peltz, Jackson Rathbone",
+        "genre": "action, adventure, family, friction",
+        "year" : "2010",
+        "Released": "01 Jul 2010",
+        "Writer": "M. Night Shyamalan",
+        "ImdbRating": 4.38,
+        "Duration": "103 min",
+        "Synopsis": "The world is divided into four kingdoms, each represented by the element they harness, and peace has lasted throughout the realms of Water, Air, Earth, and Fire under the supervision of the Avatar, a link to the spirit world and the only being capable of mastering the use of all four elements. When young Avatar Aang disappears, the Fire Nation launches an attack to eradicate all members of the Air Nomads to prevent interference in their future plans for world domination. 100 years pass and current Fire Lord Ozai continues to conquer and imprison anyone with elemental “bending” abilities in the Earth and Water Kingdoms, while siblings Katara and Sokka from a Southern Water Tribe find a mysterious boy trapped beneath the ice outside their village. Upon rescuing him, he reveals himself to be Aang, Avatar and last of the Air Nomads. Swearing to protect the Avatar, Katara and Sokka journey with him to the Northern Water Kingdom in his quest to master “Waterbending” and eventually fulfill his destiny of once again restoring peace to the world. But as they inch nearer to their goal, the group must evade Prince Zuko, the exiled son of Lord Ozai, Commander Zhao, the Fire Nation’s military leader, and the tyrannical onslaught of the evil Fire Lord himself."
+      },
+      {
+        "id": "2",
+        "img": "assets/images/solution2.jpg",
+        "title": "Avatar",
+        "subTitle": "MICHAEL STORY",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "liked": 0,
+
+        "Director": "James Cameron",
+        "Starring": "Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang",
+        "genre": "action, adventure, fantasy",
+        "Released": "18 Dec 2009",
+        "year" : "2009",
+        "Writer": "James Cameron",
+        "ImdbRating": 8.13,
+        "Duration": "162 min",
+        "Synopsis": "When his brother is killed in a robbery, paraplegic Marine Jake Sully decides to take his place in a mission on the distant world of Pandora. There he learns of greedy corporate figurehead Parker Selfridge’s intentions of driving off the native humanoid “Na’vi” in order to mine for the precious material scattered throughout their rich woodland. In exchange for the spinal surgery that will fix his legs, Jake gathers intel for the cooperating military unit spearheaded by gung-ho Colonel Quaritch, while simultaneously attempting to infiltrate the Na’vi people with the use of an “avatar” identity. While Jake begins to bond with the native tribe and quickly falls in love with the beautiful alien Neytiri, the restless Colonel moves forward with his ruthless extermination tactics, forcing the soldier to take a stand – and fight back in an epic battle for the fate of Pandora."
+      },
+      {
+        "id": "3",
+        "img": "assets/images/solution3.jpg",
+        "title": "Jumanji",
+        "subTitle": "Daily Prayers",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "liked": 1,
+
+        "Director": "Jake Kasdan",
+        "Starring": "Karen Gillan, Dwayne Johnson, Missi Pyle, Bobby Cannavale",
+        "genre": "action, adventure, comedy, friction",
+        "Released": "20 Dec 2017",
+        "year" : "2018",
+        "Writer": "Chris McKenna (screen story by), Chris McKenna (screenplay), Jeff Pinkner (screenplay), Scott Rosenberg (screenplay), Erik Sommers (screenplay), Chris Van Allsburg (book)",
+        "ImdbRating": 6.79,
+        "Duration": "111 min",
+        "Synopsis": "In a brand new Jumanji adventure, four high school kids discover an old video game console and are drawn into the game’s jungle setting, literally becoming the adult avatars they chose. What they discover is that you don’t just play Jumanji – you must survive it. To beat the game and return to the real world, they’ll have to go on the most dangerous adventure of their lives, discover what Alan Parrish left 20 years ago, and change the way they think about themselves – or they’ll be stuck in the game forever, to be played by others without break."
+      },
+      {
+        "id": "4",
+        "img": "assets/images/solution4.jpg",
+        "title": "Justice League",
+        "subTitle": " Birth of Jesus",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "liked": 0,
+
+        "Director": "Zack Snyder",
+        "Starring": "Gal Gadot, Jason Momoa, Robin Wright, Amy Adams",
+        "genre": "action, drama, fantasy",
+        "Released": "17 Nov 2017",
+        "year" : "2017",
+        "Writer": " Chris Terrio (screenplay by), Joss Whedon (screenplay by), Zack Snyder (story by), Chris Terrio (story by), Bob Kane (characters), Bill Finger (characters), William Moulton Marston (character created by: Wonder Woman), Joe Shuster (characters), Jerry Siegel (characters)",
+        "ImdbRating": 5.69,
+        "Duration": "121 min",
+        "Synopsis": "Fueled by his restored faith in humanity and inspired by Superman’s selfless act, Bruce Wayne enlists the help of his newfound ally, Diana Prince, to face an even greater enemy. Together, Batman and Wonder Woman work quickly to find and recruit a team of metahumans to stand against this newly awakened threat. But despite the formation of this unprecedented league of heroes-Batman, Wonder Woman, Aquaman, Cyborg and The Flash-it may already be too late to save the planet from an assault of catastrophic proportions."
+      },
+      {
+        "id": "5",
+        "img": "assets/images/solution5.jpg",
+        "title": "Thor Ragnarok",
+        "subTitle": "Mother Mary",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "liked": 1,
+
+        "Director": "Taika Waititi",
+        "Starring": " Tessa Thompson, Benedict Cumberbatch, Idris Elba, Cate Blanchett",
+        "genre": "action, adventure, fantasy",
+        "Released": "03 Nov 2017",
+        "year" : "2016",
+        "Writer": " Craig Kyle (story by), Christopher Yost (story by), Eric Pearson (story by), Eric Pearson (screenplay by), Stan Lee (based on the Marvel comics by), Larry Lieber (based on the Marvel comics by), Jack Kirby (based on the Marvel comics by)",
+        "ImdbRating": 9.07,
+        "Duration": "120 min",
+        "Synopsis": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his homeworld and the end of Asgardian civilization, at the hands of an all-powerful new threat, the ruthless Hela."
+      }
+      ,
+      {
+        "id": "6",
+        "img": "assets/images/solution7.jpg",
+        "title": "The Foreigner",
+        "subTitle": "The Way to Christ",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "liked": 1,
+
+        "Director": "Martin Campbell",
+        "Starring": "Katie Leung, Jackie Chan, Rufus Jones, Mark Tandy",
+        "genre": "action, drama, friction",
+        "Released": "13 Oct 2017",
+        "year" : "2015",
+        "Writer": "David Marconi (screenplay by), Stephen Leather (based on the novel “The Chinaman” by)",
+        "ImdbRating": 3.53,
+        "Duration": "113 min",
+        "Synopsis": "The story of humble London businessman Quan (Chan), whose long-buried past erupts in a revenge-fueled vendetta when the only person left for him to love – his teenage daughter – is taken from him in a senseless act of politically-motivated terrorism. In his relentless search for the identity of the terrorists, Quan is forced into a cat- and-mouse conflict with a British government official (Brosnan), whose own past may hold clues to the identities of the elusive killers."
+      }
+  ]
+}
